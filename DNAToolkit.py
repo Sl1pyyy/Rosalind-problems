@@ -1,4 +1,4 @@
-from INPUTDNA import Nucleotides
+from INPUTDATA import Nucleotides
 
 #Functiom, that verifies if the DNA string contains actual nucleotides
 def verdnastr(dnaseq):

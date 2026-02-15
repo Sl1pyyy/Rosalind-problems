@@ -1,5 +1,5 @@
 from DNAToolkit import *
-from INPUTDNA import data
+from INPUTDATA import data
 # import collections
 
 print(verdnastr(data))

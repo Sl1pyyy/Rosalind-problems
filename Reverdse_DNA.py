@@ -1,6 +1,7 @@
-from INPUTDNA import DNA_reverse, rev_data
+from INPUTDATA import DNA_reverse, rev_data
 
 def reverse_dna(seq):
+    """ Script for reversing a DNA sequence from dictionary """
     return ''.join([DNA_reverse[nuc] for nuc in seq])[::-1]
 
 if '__main__' == __name__:
