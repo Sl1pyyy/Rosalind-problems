@@ -1,4 +1,4 @@
-Nucleotides = ['A','T','G','C']
+from INPUTDNA import Nucleotides
 
 #Functiom, that verifies if the DNA string contains actual nucleotides
 def verdnastr(dnaseq):
@@ -7,3 +7,4 @@ def verdnastr(dnaseq):
         if nuc not in Nucleotides:
             return None
     return tmpseq
+
