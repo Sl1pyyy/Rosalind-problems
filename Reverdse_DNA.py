@@ -7,4 +7,4 @@ def reverse_dna(seq):
 if '__main__' == __name__:
     print(f" 3' {rev_data} 5' ")
     print(f"    {''.join(['|' for s in range(len(rev_data))])} ")
-    print(f" 5' {reverse_dna(rev_data)} 5' ")
+    print(f" 3' {reverse_dna(rev_data)} 5' ")
